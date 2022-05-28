@@ -7,5 +7,5 @@ const router = express.Router();
 router.use(cookieParser());
 
 router.get('', async (req, res) => {res.render('index')})
-router.get('/go', async (req, res) => {res.render('go')})
+router.get('/breeze-token', async (req, res) => {res.render('breeze-token')})
 module.exports = router;

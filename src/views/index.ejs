@@ -1,8 +1,9 @@
 <%- include('./common/header') %>
-    <section class="welcome_area h-100 clearfix dzsparallaxer auto-init ico fullwidth"
-        data-options='{direction: "normal"}' id="home">
-        <!--<div class="divimage dzsparallaxer--target" style="width: 101%; height: 100%; background-image: url(/images/global.png)"></div>-->
-        <div class="hero-content d-flex align-items-center dark-blue globe">
+    <section class="welcome_area h-100 dzsparallaxer auto-init ico fullwidth" data-options='{direction: "normal"}'
+        id="home">
+        <div class="welcome_bg position-absolute" style="background-image: url(./images/nft-bg.webp)">
+        </div>
+        <div class="hero-content d-flex align-items-center">
             <!-- <div class="dream-blip blip1"></div>
             <div class="dream-blip blip2"></div>
             <div class="dream-blip blip3"></div>
@@ -80,7 +81,7 @@
     <section class="about-us-area sec-fx-padding" id="chain">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 order-2 order-lg-2 ">
                     <div class="who-we-contant">
                         <h4 class="wow fadeInUp" data-wow-delay="0.3s">Breeze Blockchain</h4>
                         <p class="wow fadeInUp" data-wow-delay="0.3s">Breeze turns the concept of blockchain into dApp
@@ -103,7 +104,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 order-1 order-lg-1">
                     <div class="welcome-meter wow fadeInUp" data-wow-delay="0.7s">
                         <img draggable="false" src="/images/breeze-diagonal.png" class="center-block" alt="">
                     </div>
@@ -221,23 +222,30 @@
                 <p class="wow fadeInUp" data-wow-delay="0.4s">TMAC token economy has been developed in a way that every
                     contributor of the community gets rewarded for his efforts.</p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="token-allocation">
-                    <img draggable="false" src="/images/tmac-tokenomics.png" class="center-block" alt="">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="token-allocation">
+                        <img draggable="false" src="/images/tmac-tokenomics.png" class="center-block" alt="">
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="info-wrapper text-left wow fadeInUp" data-wow-delay="0.2s" style="padding:14px">
-                    <p><span class="token-data">Supply:</span><span>Maximum daily supply of TMAC is 8640 tokens</span>
-                    </p>
-                    <hr style="border-top: 1px solid rgb(9 150 159);">
-                    <p><span class="token-data">Revenue:</span><span>Main revenue generation source is advertisements on
-                            social media platform. Secondary source of revenue is income from breeze treasury fund
-                            investments.</span></p>
-                    <hr style="border-top: 1px solid rgb(9 150 159);">
-                    <p><span class="token-data">Growth:</span><span>All the revenue generated will be used to buy back
-                            and burn TMAC tokens thus ensuring an abundant upward trend for TMAC price. Growth of breeze
-                            ecosystem is set to multiply with every new user.</span></p>
+                <div class="col-lg-6">
+                    <div class="info-wrapper text-left wow fadeInUp" data-wow-delay="0.2s" style="padding:14px">
+                        <p><span class="token-data">Supply:</span><span>Maximum daily supply of TMAC is 8640
+                                tokens</span>
+                        </p>
+                        <hr style="border-top: 1px solid rgb(9 150 159);">
+                        <p><span class="token-data">Revenue:</span><span>Main revenue generation source is
+                                advertisements on
+                                social media platform. Secondary source of revenue is income from breeze treasury fund
+                                investments.</span></p>
+                        <hr style="border-top: 1px solid rgb(9 150 159);">
+                        <p class="mb-0"><span class="token-data">Growth:</span><span>All the revenue generated will be
+                                used to buy
+                                back
+                                and burn TMAC tokens thus ensuring an abundant upward trend for TMAC price. Growth of
+                                breeze
+                                ecosystem is set to multiply with every new user.</span></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -249,7 +257,7 @@
     <div class="faq-timeline-area sec-fx-padding" id="development">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-7 col-md-12">
+                <div class="col-lg-7">
                     <div class="section-heading">
                         <h2 class="wow fadeInUp" data-wow-delay="0.3s">Basics of Breeze Ecosystem</h2>
                     </div>
@@ -295,7 +303,7 @@
                         </dl>
                     </div>
                 </div>
-                <div class="col-12 col-lg-5 offset-lg-0 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+                <div class="col-lg-5">
                     <div class="ico-counter">
                         <div class="counter-down">
                             <div class="content">
